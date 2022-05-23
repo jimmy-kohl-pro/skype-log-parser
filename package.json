@@ -1,0 +1,25 @@
+{
+  "name": "skype-log-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "skype_parser.js",
+  "scripts": {
+    "start": "nodemon skype_parser.ts --exec ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmy-kohl-pro/skype-log-parser.git"
+  },
+  "author": "Jimmy KOHL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimmy-kohl-pro/skype-log-parser/issues"
+  },
+  "homepage": "https://github.com/jimmy-kohl-pro/skype-log-parser#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "ts-node": "^10.7.0"
+  }
+}
